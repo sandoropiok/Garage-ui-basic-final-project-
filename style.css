@@ -105,7 +105,7 @@ span {
   bottom: 0;
   left: 0;
   width: 0;
-  height: 1px;
+  height: 2px;
   background-color: var(--gold-color);
   transition: 0.25s ease-in-out;
 }
@@ -241,27 +241,36 @@ label i {
   width: 100%;
   color: var(--wihte-color);
   background-color: var(--darkgray-color);
-  margin: 0 0 2rem auto;
+  margin: 0 0 1rem auto;
   padding: 1rem 0.5rem;
   font-size: 1.5rem;
 }
 
+.car-tech {
+  font-weight: bold;
+  color: var(--darkgray-color);
+}
+
 .price {
+  font-size: 1.4rem;
   margin: 0 0 1rem 0;
   color: var(--gray-color);
 }
 
 .car-btn {
+  width: 100%;
   color: var(--wihte-color);
   margin: 1rem auto;
-  padding: 0.7rem 2.5rem;
+  font-size: 1.5rem;
+  padding: 0.7rem 5.5rem;
+  border-radius: 10px;
   background-color: var(--darkblue-color);
 }
 
 .car-btn:hover {
   color: var(--darkblue-color);
   background-color: var(--wihte-color);
-  border: 1px solid var(--gold-color);
+  border: 2px solid var(--gold-color);
 }
 
 @media (min-width: 458px) {
