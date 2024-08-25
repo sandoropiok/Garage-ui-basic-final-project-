@@ -326,6 +326,7 @@ label i {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem;
 }
 .leftside {
   position: relative;
@@ -348,10 +349,10 @@ label i {
 }
 .leftside p {
   position: absolute;
-  font-size: 1.2rem;
-  top: 47.5%;
+  width: 70%;
+  font-size: 1.3rem;
+  top: 45%;
   left: 25%;
-  font-size: 20px;
   z-index: 100;
 }
 .rightside {
@@ -369,15 +370,14 @@ label i {
   position: absolute;
   top: 34%;
   left: 25%;
-  font-family: "OpenSans-Light";
-  font-size: 26.8px;
-  color: #fff;
+  font-size: 2rem;
+  color: var(--wihte-color);
   background: none;
   background-color: none;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--wihte-color);
   border-radius: 0;
   width: 53%;
   padding: 0px;
@@ -386,8 +386,8 @@ label i {
 #subemail:focus {
   border-bottom: 1px solid #c7d7e5;
   background-color: var(--wihte-color);
-  opacity: 0.4;
-  height: 3rem;
+  opacity: 0.3;
+  height: 2.5rem;
 }
 
 .rightside input[type="submit"] {
@@ -396,47 +396,77 @@ label i {
   left: 25%;
   z-index: 99;
   background: none;
-  border: 1px solid #fff;
-  font-family: "OpenSans-Light";
-  font-size: 31.5px;
-  color: #fff;
-  letter-spacing: 11px;
-  padding-left: 26.7px;
-  padding-right: 26.7px;
+  border: 1px solid var(--wihte-color);
+  font-size: 2rem;
+  color: var(--wihte-color);
+  letter-spacing: 0.4rem;
   width: 53%;
   height: 12%;
 }
 .rightside input[type="submit"]:hover {
-  background: #fff;
-  color: #000;
+  background: var(--wihte-color);
+  color: var(--dark-color);
   transition: all 0.2s ease-in;
+}
+@media screen and (max-width:1200px){
+	.leftside h3{
+		font-size: 1rem;
+		top:25%;
+	}
+	.leftside p{
+		font-size: 0.8rem;
+		top:38%;
+		width: 60%;
+	}
+	.rightside input{
+		font-size: 1.1rem;
+	}
+	.rightside input[type="submit"]{
+	 	font-size: 1.3rem;
+		letter-spacing: 3px;
+	}
 }
 @media screen and (max-width: 676px) {
   .newslettercontent {
     width: 100%;
     display: flex;
     flex-flow: column;
+    margin: 2rem auto;
+    padding: 0;
   }
+  .rightside input{
+		width: 65%;
+    left: 20%;
+	}
   .rightside input[type="submit"] {
-    width: 80%;
+    width: 65%;
+    margin: auto;
+    left: 20%;
+    top: 50%;
+    font-size: 1.9rem;
   }
   .leftside img {
-    top: 0;
+    top: 2rem;
     left: 0;
     transform: rotate(90deg);
     width: 100%;
   }
   .leftside h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.2rem;
     top: 0;
-    left: 20%;
+    left: 25%;
   }
   .leftside p {
     font-size: 1rem;
-    top: 25%;
-    left: 23%;
-    width: 55% !important;
+    top: 18%;
+    left: 25%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 460px){
+  .rightside input[type="submit"]{
+    font-size: 1.5rem;
   }
 }
 
