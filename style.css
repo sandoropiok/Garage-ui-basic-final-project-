@@ -408,7 +408,7 @@ label i {
   color: var(--dark-color);
   transition: all 0.2s ease-in;
 }
-@media screen and (max-width:1200px){
+@media (max-width:1200px){
 	.leftside h3{
 		font-size: 1rem;
 		top:25%;
@@ -426,7 +426,7 @@ label i {
 		letter-spacing: 3px;
 	}
 }
-@media screen and (max-width: 676px) {
+@media (max-width: 676px) {
   .newslettercontent {
     width: 100%;
     display: flex;
@@ -532,7 +532,16 @@ footer {
   width: 15rem;
   margin: auto;
 }
-
+.slogan {
+  width: 100%;
+  margin: 4rem 0 2rem auto;
+  text-align: center;
+}
+.slogan p{
+  width: 70%;
+  margin: auto;
+  color: var(--dark-color);
+}
 footer .nav_bar {
   width: 100%;
   margin: 1rem auto;
@@ -580,6 +589,7 @@ footer .nav_bar {
 .link-bar img {
   width: 6rem;
   height: 3px;
+  margin: 0.5rem;
 }
 footer .link-bar ul {
   margin: 0.5rem auto;
