@@ -318,92 +318,127 @@ label i {
   }
 }
 
-.newslettercontent{
-	position: relative;
-	width: 100%;
-	height: auto;
+.newslettercontent {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.leftside{
-	position: relative;
-  top: 50%;
-  left: 10%;
+.leftside {
+  position: relative;
+}
+.leftside img {
+  position: relative;
+  width: 100%;
+  top: 10%;
+  left: 15%;
   z-index: 99;
 }
-.leftside img{
-	width: 100%;
-}
-.leftside h1{
+.leftside h3 {
   position: absolute;
-  top:39%;
-	left: 13.2%;
-	letter-spacing: 8px;
-	z-index: 100;
-
+  font-size: 1.8rem;
+  font-weight: 600;
+  top: 30%;
+  left: 25%;
+  letter-spacing: 8px;
+  z-index: 100;
 }
-.leftside p{
+.leftside p {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 47.5%;
+  left: 25%;
+  font-size: 20px;
+  z-index: 100;
 }
-.rightside{
+.rightside {
   position: relative;
   top: 50%;
   right: 0;
 }
-.rightside>img{
-	position: relative;
-	width: 100%;
-	padding-top: 4px;
-	z-index: 1;
+.rightside img {
+  position: relative;
+  width: 100%;
+  padding-top: 4px;
+  z-index: 1;
 }
-.rightside>input{
-	position: absolute;
-	top:34%;
-	left:25%;
-	font-family: "OpenSans-Light";
-	font-size: 26.8px;
-	color:#fff;
-	background: none;
-	background-color: none;
-	border-top: none;
-	border-left: none;
-	border-right:none;
-	border-bottom: 1px solid #fff;	
-	border-radius: 0;
-	width: 53%;
-	padding: 0px;
-	z-index: 99;
+.rightside input {
+  position: absolute;
+  top: 34%;
+  left: 25%;
+  font-family: "OpenSans-Light";
+  font-size: 26.8px;
+  color: #fff;
+  background: none;
+  background-color: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  width: 53%;
+  padding: 0px;
+  z-index: 99;
 }
-#subemail:focus{
-	border-bottom: 1px solid #C7D7E5;
-	 box-shadow: inset 0 0px;
-
-	}
-
-.rightside>input[type="submit"] {
-	position: absolute;
-	top:45%;
-	left:25%;
-	z-index: 99;
-	background: none;
-	border: 1px solid #fff;
-	font-family: "OpenSans-Light";
-	font-size: 31.5px;
-	color: #fff;
-	letter-spacing: 11px;
-	padding-left: 26.7px;
-	padding-right: 26.7px;
-	width: 53%;
-	height: 12%;
+#subemail:focus {
+  border-bottom: 1px solid #c7d7e5;
+  background-color: var(--wihte-color);
+  opacity: 0.4;
+  height: 3rem;
 }
- .rightside>input[type="submit"]:hover{
- 	background:#fff;
- 	color: #000;
-    transition: all .2s ease-in;
- }
 
-
-
+.rightside input[type="submit"] {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  z-index: 99;
+  background: none;
+  border: 1px solid #fff;
+  font-family: "OpenSans-Light";
+  font-size: 31.5px;
+  color: #fff;
+  letter-spacing: 11px;
+  padding-left: 26.7px;
+  padding-right: 26.7px;
+  width: 53%;
+  height: 12%;
+}
+.rightside input[type="submit"]:hover {
+  background: #fff;
+  color: #000;
+  transition: all 0.2s ease-in;
+}
+@media screen and (max-width: 676px) {
+  .newslettercontent {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+  .rightside input[type="submit"] {
+    width: 80%;
+  }
+  .leftside img {
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+    width: 100%;
+  }
+  .leftside h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    top: 0;
+    left: 20%;
+  }
+  .leftside p {
+    font-size: 1rem;
+    top: 25%;
+    left: 23%;
+    width: 55% !important;
+  }
+}
 
 .slider-container {
   display: grid;
@@ -412,7 +447,7 @@ label i {
 .slider-container h2 {
   font-size: 2rem;
   font-weight: 100;
-  margin-bottom: 1rem;
+  margin: 3rem 0 1rem;
 }
 
 .slider {
@@ -423,7 +458,8 @@ label i {
   height: 100%;
   width: 85%;
   overflow: hidden;
-  box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1), 0 -0.2rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1),
+    0 -0.2rem 2rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.4px);
   -webkit-backdrop-filter: blur(7.4px);
 
@@ -439,15 +475,15 @@ label i {
 }
 
 @keyframes scrolling {
-  0%{
+  0% {
     transform: translateX(80%);
   }
-  100%{
+  100% {
     transform: translateX(-20%);
   }
 }
 .slider img {
-  width: 12%;
+  width: 10%;
   margin: 1.3rem;
   border-radius: 45px;
   /* box-shadow: 0.2rem 0.2rem 1rem lightgray; */
@@ -463,7 +499,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 10rem;
+  width: 15rem;
   margin: auto;
 }
 
