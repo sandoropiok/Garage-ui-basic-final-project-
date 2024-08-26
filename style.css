@@ -189,8 +189,8 @@ label i {
 
 .hero-text {
   width: 100%;
-  
-  color: #fff;
+  color: var(--darkblue-color);
+  text-shadow: 0.2rem 0.1rem 0.1rem var(--wihte-color);
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
@@ -277,7 +277,9 @@ label i {
     padding: 1.8rem;
   }
   .hero-text h2 {
-    font-size: 4rem;
+    color: var(--darkblue-color);
+    font-size: 5rem;
+    text-shadow: 0.2rem 0.1rem 0.1rem var(--wihte-color);
   }
   .sale-container {
     padding: 1rem 0;
