@@ -404,55 +404,79 @@ label i {
 /* --------------------------VISITING SECTION------------------------ */
 .info-container {
   width: 100%;
+  padding: 1rem;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-
-.info-slider {
-  position: relative;
+.info-container h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 2rem 0 1rem;
+}
+.info-container p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+.visit-container {
   width: 80%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   overflow: hidden;
 }
-
-.images {
-  display: flex;
+.visit-container img {
   width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
 }
-
-.images img {
-  width: 100%;
-  height: 600px;
-  transition: all 0.15s ease;
-}
-
-.images input {
-  display: none;
-}
-
-.dots {
+.img-content {
+  width: 70%;
+  padding: 3rem;
+  text-align: center;
+  color: var(--wihte-color);
   display: flex;
-  justify-content: center;
-  margin: 0.3rem;
+  flex-flow: column;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  opacity: 0;
+  transition: all 1s ease-in-out;
 }
-.dots label {
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  border: 3px solid var(--wihte-color);
-  cursor: pointer;
-  transition: all 0.15s ease;
-  margin: 0.3rem;
+.visit-container:hover .img-content {
+  opacity: 1;
 }
-.dots label:hover {background: var(--wihte-color);}
-#img1:checked ~ .m1 {
-  margin-left: 0;
+.img-content h3 {
+  font-family: "Abril Fatface", display;
+ font-size: 5rem;
+ text-shadow: 0.1rem 0.3rem 0.5rem var(--dark-color);
 }
-#img2:checked ~ .m2 {
-  margin-left: -100%;
+.img-content p a {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-top: 6rem;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  color: var(--dark-color);
+  background-color: var(--wihte-color);
+  opacity: 0.7;
 }
-#img3:checked ~ .m3 {
-  margin-left: -200%;
+@media (max-width: 1024px) {
+  .img-content h3{font-size: 3rem;}
+  .img-content p a{font-size: 1rem;padding: 0.9rem 1.8rem;}
+}
+@media (max-width: 724px) {
+  .info-container h2 {font-size: 2rem;}
+  .info-container p{font-size: 1rem;}
+  .img-content h3{font-size: 1.8rem;}
+  .img-content p a{
+    font-size: 0.5rem;
+    padding: 0.3rem 1.2rem;
+    margin-top: 1rem;}
 }
 /* --------------------------NEWSLETTER-SECTION---------------------- */
 .newslettercontent {
@@ -758,7 +782,7 @@ footer .footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
 }
 
 footer .footer li,
