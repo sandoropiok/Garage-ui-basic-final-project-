@@ -216,13 +216,13 @@ label i {
   width: 100%;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .card-item {
   width: 100%;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 .card-item img {
@@ -230,11 +230,6 @@ label i {
   height: 300px;
   display: block;
   object-fit: cover;
-}
-
-.card-content {
-  width: 100%;
-  height: 200px;
 }
 
 .car-name {
@@ -277,17 +272,18 @@ label i {
     font-size: 1.6rem;
     padding: 1.8rem;
   }
-  .hero-text h2{
+  .hero-text h2 {
     font-size: 4rem;
   }
   .sale-container {
-    padding: 1rem 15rem;
+    padding: 1rem 0;
   }
-  .sale-container h2{
+  .sale-container h2 {
     font-size: 3rem;
   }
   .card-container {
-    width: 100%;
+    width: 75%;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -299,7 +295,7 @@ label i {
     padding: 1rem;
     border-radius: 25px;
     border: 1px solid var(--gold-color);
-    box-shadow: 0.2rem 0.2rem 1rem var(--gray-color);
+    box-shadow: 0.2rem 0.2rem 1rem rgb(184, 183, 183);
   }
   .card-item img {
     border-top-right-radius: 15px;
@@ -310,25 +306,8 @@ label i {
     border-bottom-left-radius: 15px;
   }
 }
-
-@media (min-width: 458px) {
-  .sale-container {
-    padding: 1rem 1rem;
-  }
-  .card-container {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-item {
-    width: 400px;
-    margin: 1rem auto;
-  }
-}
 /* ---------------------------STORIES-SECTION----------------------- */
-.storie-container{
+.storie-container {
   width: 100%;
 }
 .storie-container h3 {
@@ -345,7 +324,7 @@ label i {
   align-items: center;
 }
 
-.storie-item{
+.storie-item {
   width: 500px;
   height: 550px;
   margin: 1rem;
@@ -379,7 +358,7 @@ label i {
   text-align: center;
 }
 
-.storie-item:hover .storie-content{
+.storie-item:hover .storie-content {
   opacity: 1;
 }
 
@@ -405,7 +384,7 @@ label i {
     width: 100%;
     height: 350px;
   }
-  .storie-content{
+  .storie-content {
     width: 90%;
     height: 350px;
   }
@@ -508,23 +487,23 @@ label i {
   color: var(--dark-color);
   transition: all 0.2s ease-in;
 }
-@media (max-width:1200px){
-	.leftside h3{
-		font-size: 1rem;
-		top:25%;
-	}
-	.leftside p{
-		font-size: 0.8rem;
-		top:38%;
-		width: 60%;
-	}
-	.rightside input{
-		font-size: 1.1rem;
-	}
-	.rightside input[type="submit"]{
-	 	font-size: 1.3rem;
-		letter-spacing: 3px;
-	}
+@media (max-width: 1200px) {
+  .leftside h3 {
+    font-size: 1rem;
+    top: 25%;
+  }
+  .leftside p {
+    font-size: 0.8rem;
+    top: 38%;
+    width: 60%;
+  }
+  .rightside input {
+    font-size: 1.1rem;
+  }
+  .rightside input[type="submit"] {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+  }
 }
 @media (max-width: 676px) {
   .newslettercontent {
@@ -534,10 +513,10 @@ label i {
     margin: 2rem auto;
     padding: 0;
   }
-  .rightside input{
-		width: 65%;
+  .rightside input {
+    width: 65%;
     left: 20%;
-	}
+  }
   .rightside input[type="submit"] {
     width: 65%;
     margin: auto;
@@ -569,8 +548,8 @@ label i {
     font-weight: 100;
   }
 }
-@media (max-width: 460px){
-  .rightside input[type="submit"]{
+@media (max-width: 460px) {
+  .rightside input[type="submit"] {
     font-size: 1.5rem;
   }
 }
@@ -642,7 +621,7 @@ footer {
   margin: 4rem 0 2rem auto;
   text-align: center;
 }
-.slogan p{
+.slogan p {
   width: 70%;
   margin: auto;
   color: var(--dark-color);
