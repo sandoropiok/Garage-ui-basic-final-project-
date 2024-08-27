@@ -190,7 +190,7 @@ label i {
 .hero-text {
   width: 100%;
   color: var(--darkblue-color);
-  text-shadow: 0.2rem 0.1rem 0.1rem var(--wihte-color);
+  text-shadow: 0.2rem 0.1rem 0.1rem #fff;
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
@@ -279,7 +279,7 @@ label i {
   .hero-text h2 {
     color: var(--darkblue-color);
     font-size: 5rem;
-    text-shadow: 0.2rem 0.1rem 0.1rem var(--wihte-color);
+    text-shadow: 0.3rem 0.1rem 0.1rem var(--wihte-color);
   }
   .sale-container {
     padding: 1rem 0;
@@ -653,7 +653,7 @@ label i {
   align-items: center;
   margin: 1rem auto;
   height: 100%;
-  width: 85%;
+  width: 80%;
   overflow: hidden;
   box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1),
     0 -0.2rem 2rem rgba(0, 0, 0, 0.1);

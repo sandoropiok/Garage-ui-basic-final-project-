@@ -1,29 +1,74 @@
 # Garage Website
 
-## Overview
-**Garage** is a responsive website dedicated to the buying and selling of classic and vintage cars. It also serves as a community hub for car enthusiasts who enjoy learning about the stories behind these iconic vehicles and the process of restoring them. This project was developed as the final project for the UI Basic course at the Digital Career Institute.
+**Garage Website** is the final project in my UI Basic course at the Digital Career Institute (DCI). This website serves as a platform for classic and vintage car enthusiasts, offering a curated selection of vehicles for sale, along with captivating stories about their history and restoration. The project showcases the skills I've developed in HTML and CSS, focusing on creating a responsive, user-friendly interface that captures the elegance and nostalgia of the automotive world. This project reflects my learning journey and serves as a testament to my growing expertise in web design.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
 
 ## Features
+
 - **Classic Car Listings:** Browse and explore a curated selection of classic and vintage cars available for purchase.
 - **Owner Stories:** Read engaging stories about the history and restoration of the cars featured on the website.
 - **Event Locations:** Find out where to see our cars in person, including exhibitions at Classic Remise Düsseldorf and Berlin.
 - **Responsive Design:** The website is fully responsive and optimized for both desktop and mobile viewing.
 
 ## Technologies Used
-- **HTML:** The structure of the website, including semantic elements and layout.
-- **CSS:** Styling and responsive design, utilizing flexbox and other CSS techniques to create a visually appealing and user-friendly interface.
 
-## Project Goals
-This website was created as part of the final project for the UI Basic course at the Digital Career Institute. The goal was to apply the skills learned during the course to build a functional and aesthetically pleasing website using only HTML and CSS.
+- `HTML5`: For structuring the content on the website.
+- `CSS3`: For styling and layout.
+- `Font Awesome`: For icons used in the project.
+- `Bunny Fonts`: For custom typography.
 
-## How to View the Project
-Simply open the `index.html` file in your web browser to view the website. No additional dependencies or installations are required.
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#E14E1D" rx="60"/><path fill="#fff" d="M48 38L56.6098 134.593H167.32L163.605 176.023L127.959 185.661L92.38 176.037L90.0012 149.435H57.9389L62.5236 200.716L127.951 218.888L193.461 200.716L202.244 102.655H85.8241L82.901 69.9448H205.041H205.139L208 38H48Z"/><path fill="#EBEBEB" d="M128 38H48L56.6098 134.593H128V102.655H85.8241L82.901 69.9448H128V38Z"/><path fill="#EBEBEB" d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z"/></svg>
+<svg width="50" height="50" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="256" height="256" rx="60" fill="#0277BD"/><path d="M53.7527 102.651L56.6155 134.593H128.096V102.651H53.7527Z" fill="#EBEBEB"/><path d="M128.095 38H127.985H48L50.9036 69.9423H128.095V38Z" fill="#EBEBEB"/><path d="M128.095 218.841V185.608L127.955 185.645L92.3813 176.04L90.1072 150.564H72.821H58.0425L62.5175 200.718L127.948 218.882L128.095 218.841Z" fill="#EBEBEB"/><path d="M167.318 134.593L163.61 176.019L127.985 185.635V218.866L193.468 200.718L193.948 195.321L201.454 111.229L202.233 102.651L208 38H127.985V69.9423H172.994L170.088 102.651H127.985V134.593H167.318Z" fill="white"/></svg> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#F03C2E" rx="60"/><g clip-path="url(#clip0_7_283)"><path fill="#fff" d="M224.225 119.094L136.906 31.775C135.711 30.5787 134.291 29.6298 132.729 28.9824C131.166 28.3349 129.491 28.0017 127.8 28.0017C126.109 28.0017 124.434 28.3349 122.871 28.9824C121.309 29.6298 119.889 30.5787 118.694 31.775L100.569 49.9L123.569 72.9C128.919 71.025 135.044 72.3062 139.306 76.5687C141.335 78.6014 142.752 81.1638 143.394 83.9632C144.036 86.7626 143.878 89.6862 142.937 92.4L165.106 114.569C170.469 112.719 176.656 113.912 180.937 118.206C182.361 119.63 183.49 121.32 184.26 123.18C185.03 125.04 185.426 127.033 185.426 129.046C185.425 131.059 185.029 133.052 184.258 134.912C183.487 136.771 182.358 138.461 180.934 139.884C179.511 141.308 177.821 142.436 175.961 143.206C174.101 143.977 172.108 144.373 170.095 144.372C168.082 144.372 166.088 143.975 164.229 143.205C162.369 142.434 160.679 141.305 159.256 139.881C154.756 135.381 153.644 128.756 155.919 123.212L135.244 102.537V156.944C136.745 157.686 138.116 158.666 139.306 159.844C140.729 161.267 141.858 162.956 142.629 164.816C143.399 166.675 143.795 168.668 143.795 170.681C143.795 172.694 143.399 174.687 142.629 176.546C141.858 178.406 140.729 180.096 139.306 181.519C137.883 182.942 136.193 184.071 134.334 184.841C132.474 185.611 130.481 186.008 128.469 186.008C126.456 186.008 124.463 185.611 122.604 184.841C120.744 184.071 119.054 182.942 117.631 181.519C116.206 180.096 115.076 178.407 114.305 176.548C113.533 174.688 113.136 172.694 113.136 170.681C113.136 168.668 113.533 166.675 114.305 164.815C115.076 162.955 116.206 161.266 117.631 159.844C119.112 158.369 120.756 157.25 122.65 156.5V101.587C120.825 100.837 119.112 99.7312 117.631 98.2437C115.479 96.0943 114.016 93.3526 113.428 90.3684C112.841 87.3841 113.155 84.2924 114.331 81.4875L91.6437 58.8125L31.7687 118.625C30.5716 119.821 29.6219 121.241 28.9739 122.804C28.3259 124.367 27.9924 126.042 27.9924 127.734C27.9924 129.426 28.3259 131.102 28.9739 132.665C29.6219 134.228 30.5716 135.648 31.7687 136.844L119.094 224.156C120.289 225.352 121.709 226.301 123.271 226.949C124.834 227.596 126.509 227.929 128.2 227.929C129.891 227.929 131.566 227.596 133.129 226.949C134.691 226.301 136.111 225.352 137.306 224.156L224.225 137.375C225.422 136.179 226.372 134.759 227.02 133.196C227.668 131.633 228.001 129.958 228.001 128.266C228.001 126.574 227.668 124.898 227.02 123.335C226.372 121.772 225.422 120.352 224.225 119.156"/></g><defs><clipPath id="clip0_7_283"><rect width="200" height="200" fill="#fff" transform="translate(28 28)"/></clipPath></defs></svg><svg width="50" height="50" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="256" height="256" rx="60" fill="#242938"/><path d="M128.001 30C72.7791 30 28 74.7708 28 130.001C28 174.184 56.6533 211.668 96.3867 224.891C101.384 225.817 103.219 222.722 103.219 220.081C103.219 217.696 103.126 209.819 103.083 201.463C75.2631 207.512 69.3927 189.664 69.3927 189.664C64.8437 178.105 58.2894 175.032 58.2894 175.032C49.2163 168.825 58.9733 168.953 58.9733 168.953C69.0151 169.658 74.3026 179.258 74.3026 179.258C83.2217 194.546 97.6965 190.126 103.403 187.571C104.301 181.107 106.892 176.696 109.752 174.199C87.5405 171.67 64.1913 163.095 64.1913 124.778C64.1913 113.86 68.0977 104.939 74.4947 97.9362C73.4564 95.4175 70.0335 85.2465 75.4635 71.4722C75.4635 71.4722 83.8609 68.7845 102.971 81.7226C110.948 79.5069 119.502 78.3958 128.001 78.3577C136.499 78.3958 145.061 79.5069 153.052 81.7226C172.139 68.7845 180.525 71.4722 180.525 71.4722C185.968 85.2465 182.544 95.4175 181.505 97.9362C187.917 104.939 191.797 113.86 191.797 124.778C191.797 163.187 168.403 171.644 146.135 174.119C149.722 177.223 152.918 183.308 152.918 192.638C152.918 206.018 152.802 216.787 152.802 220.081C152.802 222.742 154.602 225.86 159.671 224.878C199.383 211.64 228 174.169 228 130.001C228 74.7708 183.227 30 128.001 30ZM65.4536 172.453C65.2333 172.95 64.4517 173.099 63.7396 172.758C63.0143 172.432 62.6069 171.754 62.8421 171.256C63.0574 170.744 63.8406 170.602 64.5643 170.945C65.2913 171.271 65.7053 171.955 65.4536 172.453ZM70.3725 176.842C69.8956 177.285 68.9633 177.079 68.3307 176.38C67.6766 175.683 67.554 174.751 68.0376 174.302C68.5294 173.86 69.4336 174.067 70.0893 174.764C70.7434 175.47 70.8709 176.395 70.3725 176.842ZM73.7471 182.458C73.1344 182.884 72.1325 182.485 71.5132 181.595C70.9004 180.706 70.9004 179.64 71.5264 179.212C72.1474 178.785 73.1344 179.169 73.762 180.052C74.373 180.956 74.373 182.023 73.7471 182.458ZM79.4542 188.962C78.9061 189.566 77.7386 189.404 76.8841 188.579C76.0098 187.773 75.7663 186.629 76.3161 186.024C76.8709 185.418 78.045 185.589 78.9061 186.407C79.7738 187.211 80.0387 188.364 79.4542 188.962ZM86.8301 191.157C86.5883 191.941 85.4639 192.297 84.3312 191.964C83.2002 191.621 82.46 190.704 82.6885 189.912C82.9237 189.124 84.053 188.753 85.194 189.109C86.3234 189.45 87.0652 190.361 86.8301 191.157ZM95.2242 192.089C95.2523 192.913 94.2919 193.597 93.1029 193.612C91.9073 193.639 90.9402 192.971 90.9269 192.16C90.9269 191.327 91.8659 190.65 93.0615 190.63C94.2505 190.607 95.2242 191.269 95.2242 192.089ZM103.47 191.773C103.613 192.577 102.787 193.404 101.606 193.624C100.445 193.836 99.3702 193.339 99.2229 192.541C99.0788 191.716 99.92 190.89 101.079 190.676C102.262 190.471 103.32 190.955 103.47 191.773Z" fill="white"/>
+</svg>
 
-## About the Author
-This project was developed by [Your Name] as a final assignment for the UI Basic course at the Digital Career Institute. It reflects the skills and techniques learned throughout the course, focusing on the fundamentals of web design and development.
+## Installation
 
-## Acknowledgments
-Special thanks to the instructors and fellow students at the Digital Career Institute for their guidance and support throughout the course.
+To run this project locally, follow these steps:
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Clone the repository:
+   ```bash
+   git@github.com:sandoropiok/Garage-ui-basic-final-project-.git
+   ```
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd garage-website
+   ```
+3. **Open the `index.html` File:**
+   - You can view the project by opening the index.html file in a web browser.
+
+## Usage
+
+The website is static and does not include JavaScript functionality. It is designed for display purposes and can be used as a template for building a more dynamic e-commerce site.
+
+## Screenshots
+
+Here are some screenshots of the project movile-version:
+
+![Mobile-Top](/screenshots/mobile-top.png)
+![Mobile-Sale](/screenshots/mobile-sale.png)
+![Mobile-Stories](/screenshots/mobile-stories.png)
+![Mobile-Stories](/screenshots/mobile-stories1.png)
+![Mobile-Submit](/screenshots/mobile-submit.png)
+![Mobile-Footer](/screenshots/mobile-footer.png)
+
+## Contact
+
+For any questions or feedback, feel free to reach out to me:
+
+- GitHub: [GitHub-Profile](https://github.com/sandoropiok)
+
+## More Screenshots
+
+![Desktop-Top](/screenshots/desktop-top.png)
+![Desktop-Sale](/screenshots/desktop-sale.png)
+![Desktop-Stories](/screenshots/desktop-stories.png)
+![Desktop-Subscribe](/screenshots/desktop-subscribe.png)
+![Desktop-Footer](/screenshots/desktop-footer.png)
