@@ -13,10 +13,10 @@
 
 ## Features
 
-- **Classic Car Listings:** Browse and explore a curated selection of classic and vintage cars available for purchase.
-- **Owner Stories:** Read engaging stories about the history and restoration of the cars featured on the website.
+- **Responsive Design**: Adapts to various screen sizes including 600px, 890px, 1200px, 1400px, and 1600px breakpoints.
+- **Modern Layout**: Utilizes CSS Grid and Flexbox for layout and positioning.
+- **Minimal Dependencies**: Only uses FontAwesome for icons and Google Fonts for typography.
 - **Event Locations:** Find out where to see our cars in person, including exhibitions at Classic Remise Düsseldorf and Berlin.
-- **Responsive Design:** The website is fully responsive and optimized for both desktop and mobile viewing.
 
 ## Technologies Used
 
@@ -55,8 +55,8 @@ Here are some screenshots of the project movile-version:
 ![Mobile-Top](/screenshots/mobile-top.png)
 ![Mobile-Sale](/screenshots/mobile-sale.png)
 ![Mobile-Stories](/screenshots/mobile-stories.png)
-![Mobile-Stories](/screenshots/mobile-stories1.png)
-![Mobile-Submit](/screenshots/mobile-submit.png)
+![Mobile-Stories](/screenshots/mobile-visit.png)
+![Mobile-Submit](/screenshots/mobile-subscribe.png)
 ![Mobile-Footer](/screenshots/mobile-footer.png)
 
 ## Contact
