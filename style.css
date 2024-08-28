@@ -452,8 +452,8 @@ label i {
 }
 .img-content h3 {
   font-family: "Abril Fatface", display;
- font-size: 5rem;
- text-shadow: 0.1rem 0.3rem 0.5rem var(--dark-color);
+  font-size: 5rem;
+  text-shadow: 0.1rem 0.3rem 0.5rem var(--dark-color);
 }
 .img-content p a {
   text-transform: uppercase;
@@ -466,17 +466,29 @@ label i {
   opacity: 0.7;
 }
 @media (max-width: 1024px) {
-  .img-content h3{font-size: 3rem;}
-  .img-content p a{font-size: 1rem;padding: 0.9rem 1.8rem;}
+  .img-content h3 {
+    font-size: 3rem;
+  }
+  .img-content p a {
+    font-size: 1rem;
+    padding: 0.9rem 1.8rem;
+  }
 }
 @media (max-width: 724px) {
-  .info-container h2 {font-size: 2rem;}
-  .info-container p{font-size: 1rem;}
-  .img-content h3{font-size: 1.8rem;}
-  .img-content p a{
+  .info-container h2 {
+    font-size: 2rem;
+  }
+  .info-container p {
+    font-size: 1rem;
+  }
+  .img-content h3 {
+    font-size: 1.8rem;
+  }
+  .img-content p a {
     font-size: 0.5rem;
     padding: 0.3rem 1.2rem;
-    margin-top: 1rem;}
+    margin-top: 1rem;
+  }
 }
 /* --------------------------NEWSLETTER-SECTION---------------------- */
 .newslettercontent {
